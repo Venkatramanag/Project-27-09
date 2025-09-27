@@ -1,0 +1,88 @@
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Mono&display=swap');
+
+/* Base Styles */
+body, html {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #F2F2F2;
+    color: #333333;
+}
+
+/* Streamlit Container */
+.stApp {
+    padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #333333;
+}
+
+/* Input Fields */
+input, textarea {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Buttons */
+button, .stButton>button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #0056b3;
+}
+
+/* Accent Elements */
+a, .accent {
+    color: #17A2B8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error Messages */
+.stAlert {
+    background-color: #DC3545;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+/* Form Layout */
+.stForm {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab"] {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.75rem;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .stForm {
+        padding: 1rem;
+    }
+
+    button, .stButton>button {
+        width: 100%;
+    }
+}
